@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="logo-area">
+                <img class="logo" src="./img/site-logo-white.svg" alt="jc-site-logo">
+                <p class="logo-text"> WEB DEV</p>
+            </div>
+            <p class="left-footer">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+        </div>
+        <div class="right-side">
+            <p class="site-info">
+                This is not a real online service! You know you need something like this
+                in your life to help you realize your deepest dreams.
+                Sign up now to get started.
+                <br>
+                You know you want to.
+            </p>
+            <form id="intake-form" class="intake-form" action="" method="get">
+                <legend><strong>Let's do this!</strong></legend>
+                <div class="inputs">
+                    <div class="form-left">
+                        <p>
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" name="first-name" id="firstName" placeholder="First Name">
+                        </p>
+                        <p>
+                            <label for="user-email">EMAIL</label>
+                                <input type="email" name="email" id="user-email" placeholder="example@website.com">
+                        </p>
+                        <p>
+                            <label for="password">PASSWORD</label>
+                                <input type="password" name="password" id="password" required pattern="123">
+                        </p>
+                    </div>
+                    <div class="form-right">
+                        <p>
+                            <label for="lastName">LAST NAME</label>
+                                <input type="text" name="last-name" id="lastName" placeholder="Last Name">
+                        </p>
+                        <p>
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                                <input type="tel" name="phone" id="phoneNumber">
+                        </p>
+                        <p>
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirmPassword" id="confirmPassword" required pattern="123">
+                        </p>
+                    </div>
+                </div>
+            </form>
+
+            <div class="bottom-info">
+                <button class="submit" form="intake-form" type="submit">Create Account</button>
+                <p>Already have an account? <a href="https://www.theodinproject.com/dashboard">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
